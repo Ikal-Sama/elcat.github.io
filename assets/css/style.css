@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo';
+}
+body{
+    text-align: center;
+   background-image: linear-gradient(to right, #4dc3ff, #4dc3ff)
+}
+h4{
+    font-size: larger;
+    color: black;
+    margin-left: 15px;
+}
+section{
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    display: inline-flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+    box-shadow: black 2%;
+    box-shadow: 10px 10px 5px #a7a7a7;
+}
+section img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 55%;
+}
+button{
+    margin-top: 15px;
+margin-right: 15px;
+padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background: #f34343;
+    border: none;
+    padding: 10px;
+    color: black
+}
+.btn2{
+    background: #4af358;
+    border: none;
+    padding: 10px;
+    color: black
+}
+.btn:hover{
+    cursor: pointer;
+    background: #e01414;
+    color: white;
+}
+.btn2:hover{
+    cursor: pointer;
+    background: #04913a;
+    color: white;
+}
+h1{
+    color: white;
+}
+.yesSection{
+    margin-top: 10%;
+    width: 30%;
+    display: inline-block;
+}
+.noSection, img{
+    width: 150px;
+}
+.noSection{
+    
+    display: inline-block;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  section{
+    display: inline-block
+  }
+}
